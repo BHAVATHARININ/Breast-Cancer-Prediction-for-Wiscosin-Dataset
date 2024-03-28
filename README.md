@@ -13,9 +13,13 @@ CancerAnalysis Class: This Python class contains methods for analyzing the WBC d
 **Processes Implemented:**
 
 Loading Dataset: The dataset is loaded using the np.genfromtxt() function from the NumPy library. Missing values (NaNs) are removed using the any() function.
+
 Data Preprocessing: The preprocessing step involves handling missing values by removing rows containing NaNs.
+
 Splitting Data: The dataset is split into training and testing sets based on the specified index.
+
 Machine Learning Algorithms: Several classification algorithms are implemented for analysis, including K-Nearest Neighbors (KNN), Logistic Regression, Support Vector Machine (SVM), Decision Tree, Naive Bayes, Gradient Boosting, and Polynomial Kernel SVM.
+
 Evaluation: The performance of each algorithm is evaluated using accuracy scores on both training and testing data.
 
 **Usage:**
